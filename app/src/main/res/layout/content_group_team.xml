@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahrizal.spirititk.GroupTeam"
+    tools:showIn="@layout/activity_group_team">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Pengembangan aplikasi ini merupakan hasil pengerjaan dari mahasiswa Sistem Informasi ITK\n\n
+        Fahrizal Fikri Suriaji\n10141004\n\n
+        M. Angga Kawa Perdana\n10141006\n\n
+        Gardian Bimo Lukito\n10141003\n\n
+        Rika Indah Sari\n10141002\n\n
+        Adityo Gizwanda\n10141001\n\n
+        Rachman\n10131008\n\n
+        Deri Saputra\n10131002" />
+
+</android.support.v4.widget.NestedScrollView>

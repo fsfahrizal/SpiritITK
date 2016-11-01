@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3E50"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahrizal.spirititk.TeknikMesin"
+    tools:showIn="@layout/activity_teknik_mesin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_teknik_mesin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.fahrizal.spirititk.TeknikMesin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TEKNIK MESIN"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Teknik Mesin berkaitan kepada manajemen manusia dan sumber daya, perancangan dan penggunaan teknologi baru, desain dan pengembangan proses industri dan produksi. Hal ini sebagian besar melibatkan 'hal-hal yang bergerak' seperti kendaraan bermotor, mesin, pompa, turbin, sistem pendingin/pemanas (Air Conditioner System)."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Program sarjana Teknik Mesin fokus kepada kemampuan desain dan manajemen produksi. Pada tahun kedua, mahasiswa mampu menyelesaikan sebuah proyek desain dan pembuatan prototipo sederhana dan dilanjutkan ke proyek yang lebih kompleks ditahun ketiga. Tahun keempat, mahasiswa ditutuntu untuk menyelesaikan Tugas Akhir (Final Project) yang kompleks untuk memperoleh gelar sarjana dari Teknik Mesin"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Program sarjana ini memberikan dasar yang kuat terhadap dasar-dasar disiplin ilmu Teknik Mesin, berfikir kritis dan kemampuan memecahkan masalah. Melalui program akademik, mahasiswa juga diarahkan untuk mengembangkan kemampuan manajemen proyek, berkomunikasi dan kerjasama tim."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bidang Minat di Program Studi Teknik Mesin :"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Manufaktur"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Konversi Energi"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Sistem dan Kontrol"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Desain Mekanik"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potensi Karir Lulusan"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="Lulusan Teknik Mesin memeiliki peluang kerja yang beragaram, diantaranya :"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Konsultan Teknik"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Industri Robotika"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Industri Otomotif dan Permesinan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Pegawai Pemerintah (PNS)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Industri Minyak dan Gas"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Tenaga Pendidikan (Dosen dan Guru)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Peneliti"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Wiraswasta (Entrepreneur)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Perbankan"/>
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:text="MATA KULIAH"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="35sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/pilihan"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="PILIHAN"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 8"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 7"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 6"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 5"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 4"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 3"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 2"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 1"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

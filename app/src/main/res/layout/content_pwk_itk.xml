@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3E50"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahrizal.spirititk.PwkITK"
+    tools:showIn="@layout/activity_pwk_itk">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_pwk_itk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.fahrizal.spirititk.PwkITK">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PERENCANAAN WILAYAH DAN KOTA"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Program Studi Perencanaan Wilayah dan Kota (PWK) ITK berdiri pada tahun 2013. Program Studi PWK ITK difokuskan pada studi mengenai perencanaan dan pengembangan kawasan perkotaan, pengembangan wilayah yang terintegrasi dan pengelolaan kawasan pesisir terpadu. Mahasiswa akan menerima beberapa mata kuliah utama diantaranya Teori dan Proses Perencanaan, Perencanaan Kota, Perencanaan Wilayah, Manajemen Kota, Teknik Analisa Perencanaan, Perancangan Kota, Infrastruktur Wilayah dan Perencanaan Pesisir. Selain itu, mahasiswa juga dibekali kemampuan analisis keuangan berbasis sistem informasi geografis pada mata kuliah sistem infotmasi perencanaan."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pada Program Studi ini, lulusan diharapkan mampu menganalisa berbagai permasalahan terkait perencanaan kota dan perencanaan wilayah; mempunyai kompetensi dalam menyusun rencana tata ruang dan rencana sektoral; serta dapat berkontribusi dalam pembangunan berkelanjutan."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bidang Minat di Program Studi Perencanaan Wilayah dan Kota :"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Resilient City"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Urban Planning and Development"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Integrated Regional Development"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Urban-Rural Linkage"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Minapolitan"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Integrated Coastal Planning"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potensi Karir Lulusan"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="Lulusan Teknik Kimia memeiliki peluang kerja yang beragaram, diantaranya :"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Konsultan Teknik"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Lembaga Penelitian (LIPI, BPPT)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Tenaga Pendidikan (Dosen dan Guru)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Pegawai Pemerintah (PNS)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Wiraswasta (Entrepreneur)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Perbankan"/>
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:text="MATA KULIAH"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="35sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/pilihan"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="PILIHAN"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 8"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 7"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 6"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 5"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 4"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 3"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 2"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 1"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

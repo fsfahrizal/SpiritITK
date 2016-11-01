@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3E50"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahrizal.spirititk.SistemInformasi"
+    tools:showIn="@layout/activity_sistem_informasi">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_sistem_informasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.fahrizal.spirititk.SistemInformasi">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="SISTEM INFORMASI"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Program Studi Sistem Informasi ITK ditujukan sebagai pusat keunggulan penyelenggaraan pendidikan sistem informasi yang dapat membantu meningkatkan kinerja perusahaan atau organisasi melalui pemanfaatan teknologi informasi. Sistem Informasi adalah bidang ilmu yang mempelajari tentang analisa kebutuhan dan proses bisnis serta desain sistem. Fokus area sistem informasi lebih condong kepada Organizational Issues and Information Systems serta Application Development Configuration."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dengan semakin majunya perkembangan teknologi informasi baik di dunia dan khususnya di Indonesia, maka Program Studi ini bertujuan untuk memenuhi kebutuhan sarjana Sistem Informasi yang berkompeten dalam dunia teknologi informasi."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sistem kurikulum yang diterapkan mengacu pada Curriculum Guidlines for Undergraduate Degree Programs in information Systems yang diterbitkan oleh Association for Computing Machinery (ACM). Selain itu, proses pembelajaran mengacu pada sistem studi kasus dan kunjungan industri."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bidang Minat di Program Studi Sistem Informasi :"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Sistem Pendukung Keputusan"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Pembangunan Sistem Informasi"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Perancangan Sistem Informasi"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potensi Karir Lulusan"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="Lulusan Sistem Informasi memeiliki peluang kerja yang beragaram, diantaranya :"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Konsultan Teknologi Informasi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Integrator Sistem"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Spesialis Database"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Auditor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Industri Robotika"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Peneliti"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Industri Minyak dan Gas"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Tenaga Pendidikan (Dosen dan Guru)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Wiraswasta (Entrepreneur)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Perbankan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:text="- Pegawai Pemerintah (PNS)"/>
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:text="MATA KULIAH"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="35sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/pilihan"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="PILIHAN"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 8"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 7"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 6"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 5"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 4"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 3"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 2"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/semester1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="#4A6075"-->
+        <!--android:text="SEMESTER 1"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

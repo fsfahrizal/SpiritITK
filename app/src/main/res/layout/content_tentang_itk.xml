@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C3E50"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahrizal.spirititk.TentangITK"
+    tools:showIn="@layout/activity_tentang_itk">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_tentang_itk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.fahrizal.spirititk.TentangITK"
+        tools:showIn="@layout/app_bar_tentang_itk">
+
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/kampus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Institut Teknologi Kalimantan (ITK) adalah salah satu perguruan tinggi di Indonesia yang sejak tahun 2012 dan diresmikan menjadi perguruan tinggi negeri (PTN) pada 6 Oktober 2014 oleh Presiden Republik Indonesia. ITK didirikan atas dasar pemikiran yang matang guna memeratakan pendidikan di Indonesia, khususnya dibidang sains dan teknologi. Dengan menempati lahan seluas 56,9 Ha (dan sesuai masterplan akan dilakukan pengembangan hingga 300 Ha), ITK diproyeksikan menjadi perguruan tinggi terbesar se-Asia Tenggara dimasa mendatang."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Saat ini ITK memiliki jumlah mahasiswa sebanyak 1358 orang yang tersebar di 10 program studi dan tahun 2017, ITK membuka 3 program studi baru yaitu Teknik Industri, Teknik Lingkungan dan Teknik Informatika."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Tenaga pengajar di lingkungan ITK berasal dari perguruan tinggi terbaik di Indonesia maupun di luar negeri. Dengan tenaga pengajar yang berkompeten dibidangnya, diharapkan lulusan ITK akan mampu bersaing dilingkup Nasional maupun Internasional."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
