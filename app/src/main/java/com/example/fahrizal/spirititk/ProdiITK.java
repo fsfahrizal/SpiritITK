@@ -114,9 +114,13 @@ public class ProdiITK extends AppCompatActivity
             Intent i = new Intent(ProdiITK.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
-
+            Intent i = new Intent(ProdiITK.this, FasilitasITK.class);
+            startActivity(i);
         } else if (id == R.id.nav_tentang) {
             Intent i = new Intent(ProdiITK.this, TentangITK.class);
+            startActivity(i);
+        } else if (id == R.id.nav_jalur){
+            Intent i = new Intent(ProdiITK.this, JalurMasuk.class);
             startActivity(i);
         } else if (id == R.id.nav_contact) {
 

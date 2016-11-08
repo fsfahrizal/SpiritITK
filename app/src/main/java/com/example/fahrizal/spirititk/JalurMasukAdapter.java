@@ -15,10 +15,10 @@ import java.util.List;
  * Created by fahrizal on 10/20/16.
  */
 
-public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
+public class JalurMasukAdapter extends RecyclerView.Adapter<JalurMasukAdapter.ViewHolder> {
     private List<Card> mCards;
 
-    public CardAdapter(List<Card> dataModelList) {
+    public JalurMasukAdapter(List<Card> dataModelList) {
 
         this.mCards = dataModelList;
     }
@@ -47,14 +47,12 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
         public TextView name;
         public ImageView image;
         private final Context context;
-        private final Context context1;
 
         public ViewHolder(View view) {
             super(view);
             name = (TextView) view.findViewById(R.id.name_card);
             image = (ImageView) view.findViewById(R.id.image_card);
             context = view.getContext();
-            context1 = view.getContext();
             view.setOnClickListener(this);
         }
 
@@ -63,34 +61,13 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
             final Intent intent;
             switch (getLayoutPosition()) {
                 case 0:
-                    intent = new Intent(v.getContext(), FisikaITK.class);
+                    intent = new Intent(v.getContext(), SnmptnItk.class);
                     break;
                 case 1:
-                    intent = new Intent(context, MatematikaITK.class);
+                    intent = new Intent(context, SbmptnItk.class);
                     break;
                 case 2:
-                    intent = new Intent(context, TeknikMesin.class);
-                    break;
-                case 3:
-                    intent = new Intent(context, TeknikElektro.class);
-                    break;
-                case 4:
-                    intent = new Intent(context, TeknikKimia.class);
-                    break;
-                case 5:
-                    intent = new Intent(context, TeknikMaterial.class);
-                    break;
-                case 6:
-                    intent = new Intent(context, TeknikSipil.class);
-                    break;
-                case 7:
-                    intent = new Intent(context, PwkITK.class);
-                    break;
-                case 8:
-                    intent = new Intent(context, TeknikPerkapalan.class);
-                    break;
-                case 9:
-                    intent = new Intent(context, SistemInformasi.class);
+                    intent = new Intent(context, UmItk.class);
                     break;
                 default:
                     intent = new Intent(context, MainActivity.class);

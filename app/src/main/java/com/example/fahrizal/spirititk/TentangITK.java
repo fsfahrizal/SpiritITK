@@ -82,14 +82,15 @@ public class TentangITK extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_news) {
-            Intent i = new Intent(TentangITK.this, MainActivity.class);
-            startActivity(i);
+            // Handle the camera action
         } else if (id == R.id.nav_prodi) {
             Intent i = new Intent(TentangITK.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
 
         } else if (id == R.id.nav_tentang) {
+
+        } else if (id == R.id.nav_jalur){
 
         } else if (id == R.id.nav_contact) {
 

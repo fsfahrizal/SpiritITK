@@ -1,5 +1,6 @@
 package com.example.fahrizal.spirititk;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,17 +81,27 @@ public class FasilitasITK extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_news) {
+            Intent i = new Intent(FasilitasITK.this, MainActivity.class);
+            startActivity(i);
+        } else if (id == R.id.nav_prodi) {
+            Intent i = new Intent(FasilitasITK.this, ProdiITK.class);
+            startActivity(i);
+        } else if (id == R.id.nav_fasilitas) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_tentang) {
+            Intent i = new Intent(FasilitasITK.this, TentangITK.class);
+            startActivity(i);
+        } else if (id == R.id.nav_jalur){
 
-        } else if (id == R.id.nav_manage) {
+        }else if (id == R.id.nav_contact) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_exit) {
+            moveTaskToBack(true);
+        } else if (id == R.id.nav_team) {
+            Intent i = new Intent(FasilitasITK.this, TeamDev.class);
+            startActivity(i);
+        } else if (id == R.id.nav_about) {
 
         }
 

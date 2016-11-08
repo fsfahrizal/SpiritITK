@@ -10,7 +10,7 @@
     </string>
     <string name="title_activity_about_app">About App</string>
     <string name="title_activity_seputar_itk">Seputar ITK</string>
-    <string name="title_activity_team_dev">TeamDev</string>
+    <string name="title_activity_team_dev">Team Development2</string>
     <string name="title_activity_tentang_itk">Tentang ITK</string>
     <string name="title_activity_prodi_itk">Prodi ITK</string>
     <string name="title_activity_fisika_itk">Fisika</string>
@@ -95,7 +95,11 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="title_activity_fasilitas_itk">FasilitasITK</string>
+    <string name="title_activity_fasilitas_itk">Fasilitas ITK</string>
+    <string name="title_activity_jalur_masuk">Jalur Masuk</string>
+    <string name="title_activity_snmptn_itk">SNMPTN</string>
+    <string name="title_activity_sbmptn_itk">SBMPTN</string>
+    <string name="title_activity_um_itk">UMITK</string>
 
 
 </resources>

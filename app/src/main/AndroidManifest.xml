@@ -91,6 +91,22 @@
         <activity
             android:name=".FasilitasITK"
             android:label="@string/title_activity_fasilitas_itk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JalurMasuk"
+            android:label="@string/title_activity_jalur_masuk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SnmptnItk"
+            android:label="@string/title_activity_snmptn_itk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SbmptnItk"
+            android:label="@string/title_activity_sbmptn_itk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UmItk"
+            android:label="@string/title_activity_um_itk"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

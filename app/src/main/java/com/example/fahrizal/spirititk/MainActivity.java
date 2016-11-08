@@ -106,11 +106,15 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
-
+            Intent i = new Intent(MainActivity.this, FasilitasITK.class);
+            startActivity(i);
         } else if (id == R.id.nav_tentang) {
             Intent i = new Intent(MainActivity.this, TentangITK.class);
             startActivity(i);
-        } else if (id == R.id.nav_contact) {
+        } else if (id == R.id.nav_jalur){
+            Intent i = new Intent(MainActivity.this, JalurMasuk.class);
+            startActivity(i);
+        }else if (id == R.id.nav_contact) {
 
         } else if (id == R.id.nav_exit) {
             moveTaskToBack(true);
