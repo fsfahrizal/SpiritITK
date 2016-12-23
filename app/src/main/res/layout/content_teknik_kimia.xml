@@ -47,6 +47,13 @@
             android:textColor="#ffffff"
             android:textSize="14sp" />
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="5dp"
+            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,6 +83,13 @@
             android:text="- Research group 'Food and Natural Products Engineering'"
             android:textColor="#ffffff"
             android:textSize="14sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="5dp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
