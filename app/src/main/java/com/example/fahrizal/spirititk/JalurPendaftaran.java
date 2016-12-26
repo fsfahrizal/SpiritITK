@@ -3,8 +3,11 @@ package com.example.fahrizal.spirititk;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -12,15 +15,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class TeamDev extends AppCompatActivity
+import java.util.ArrayList;
+
+public class JalurPendaftaran extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_team_dev);
+        setContentView(R.layout.activity_jalur_pendaftaran);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -41,11 +45,23 @@ public class TeamDev extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ArrayList<Card> cards = new ArrayList<>();
+
+        cards.add(new Card("SNMPTN", R.drawable.kapal));
+        cards.add(new Card("SBMPTN", R.drawable.kapal));
+        cards.add(new Card("UMITK", R.drawable.kapal));
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.list_item);
+        JalurPendaftaranAdapter myAdapter = new JalurPendaftaranAdapter(cards);
+
+        recyclerView.setAdapter(myAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     @Override
     public void onBackPressed() {
-        Intent pindah = new Intent(TeamDev.this,MainActivity.class);
+        Intent pindah = new Intent(JalurPendaftaran.this,MainActivity.class);
         startActivity(pindah);
 //        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 //        if (drawer.isDrawerOpen(GravityCompat.START)) {
@@ -58,7 +74,7 @@ public class TeamDev extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.team_dev, menu);
+        getMenuInflater().inflate(R.menu.jalur_pendaftaran, menu);
         return true;
     }
 
@@ -84,19 +100,20 @@ public class TeamDev extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_prodi) {
-            Intent i = new Intent(TeamDev.this, ProdiITK.class);
+            Intent i = new Intent(JalurPendaftaran.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
-            Intent i = new Intent(TeamDev.this, FasilitasITK.class);
+            Intent i = new Intent(JalurPendaftaran.this, FasilitasITK.class);
             startActivity(i);
         } else if (id == R.id.nav_tentang) {
-            Intent i = new Intent(TeamDev.this, TentangITK.class);
+            Intent i = new Intent(JalurPendaftaran.this, TentangITK.class);
             startActivity(i);
         } else if (id == R.id.nav_jalur){
-            Intent i = new Intent(TeamDev.this, JalurPendaftaran.class);
+            Intent i = new Intent(JalurPendaftaran.this, JalurPendaftaran.class);
             startActivity(i);
-        } else if (id == R.id.nav_team) {
-
+        }  else if (id == R.id.nav_team) {
+            Intent i = new Intent(JalurPendaftaran.this, TeamDev.class);
+            startActivity(i);
         } else if (id == R.id.nav_about) {
 
         }

@@ -3,10 +3,6 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_news"
-            android:icon="@drawable/news"
-            android:title="News" />
-        <item
             android:id="@+id/nav_prodi"
             android:icon="@drawable/prodi"
             android:title="Prodi ITK" />
@@ -22,17 +18,10 @@
             android:id="@+id/nav_jalur"
             android:icon="@android:drawable/ic_input_get"
             android:title="Jalur Masuk" />
-        <item
-            android:id="@+id/nav_contact"
-            android:icon="@android:drawable/ic_menu_call"
-            android:title="Contact Us" />
-        <item
-            android:id="@+id/nav_exit"
-            android:icon="@android:drawable/ic_lock_power_off"
-            android:title="Exit" />
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="About Us">
         <menu>
             <item
                 android:id="@+id/nav_team"
@@ -41,7 +30,7 @@
             <item
                 android:id="@+id/nav_about"
                 android:icon="@android:drawable/ic_dialog_info"
-                android:title="About App" />
+                android:title="About Apps" />
         </menu>
     </item>
 

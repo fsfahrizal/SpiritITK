@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2C3E50"
+    android:background="#ffffff"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.fahrizal.spirititk.FasilitasITK"
     tools:showIn="@layout/activity_fasilitas_itk">
@@ -15,7 +15,7 @@
         android:id="@+id/content_fasilitas_itk"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    android:background="#2C3E50"
+        android:background="#ffffff"
         android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:scaleType="centerCrop"
             android:layout_height="200dp"
-            app:srcCompat="@drawable/fasilitas" />
+            app:srcCompat="@drawable/kapal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:text="Laboratorium"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold"/>
 
@@ -48,7 +48,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Fisika Dasar"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -58,7 +58,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Pemodelan Sistem dan Pengolahan Data"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -68,7 +68,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Teknologi Mekanik"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Teknik Elektro"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -88,7 +88,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Teknologi Proses dan Rekayasa Lingkungan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -98,7 +98,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Rekayasa Energi Bersih dan Terbarukan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -108,7 +108,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Bahan Alam dan Pangan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -118,7 +118,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Teknologi Material"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -128,7 +128,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Mekanika Tanah dan Survei "
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -138,7 +138,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Transpoertasi dan Perkerasan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -148,7 +148,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Hidroteknik"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -158,7 +158,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Manajemen Konstruksi"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -168,7 +168,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Struktur dan Material Bangunan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -178,7 +178,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Perencanaan Wilayah dan Kota"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -188,7 +188,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Konstruksi dan Kekuatan"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -198,7 +198,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Permesinan Kapal"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -208,7 +208,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Desain dan Komputasi"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -218,7 +218,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Hidrodinamika"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -228,7 +228,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="5dp"
             android:text="- Laboratorium Produksi"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
     <TextView
@@ -238,7 +238,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:text="Unit Pelaksana Teknis (UPT)"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"/>
 
@@ -249,7 +249,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="5dp"
         android:text="- UPT Teknologi Informasi"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="14sp" />
 
     <TextView
@@ -259,7 +259,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="5dp"
         android:text="- UPT Perpustakaan"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="14sp" />
 
     <TextView
@@ -269,7 +269,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="5dp"
         android:text="- UPT Bahasa"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="14sp" />
 
     <TextView
@@ -279,7 +279,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:text="Taman Kampus"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"/>
 
@@ -290,7 +290,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:text="Lahan Parkir"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"/>
 
@@ -301,7 +301,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
         android:text="Free Internet Connection"
-        android:textColor="#ffffff"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"/>
 

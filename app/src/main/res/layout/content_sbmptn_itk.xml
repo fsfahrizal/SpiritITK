@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#2C3E50"
+    android:background="#ffffff"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.fahrizal.spirititk.SbmptnItk"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Seleksi Bersama Masuk Perguruan Tinggi Negeri (SBMPTN)"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="SBMPTN adalah seleksi calon mahasiswa baru Perguruan Tinggi Negeri (PTN) melalui proses ujian tertulis bersama yang diikuti oleh seluruh perguruan tinggi negeri di Indonesia. Jenis tes yang di ujikan adalah :"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <View
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Tes Kemampuan akademik dan potensi akademik (TKPA)"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -59,21 +59,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Tes kemampuan dasar, terbagi menjadi 2 yaitu : "
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1. Kategori SAINTEK : Matematika, Fisika, Kimia dan Biologi"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1. Kategori SOSHUM : Sosioligi, Sejarah, Geografi dan Ekonomi"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -81,14 +81,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Tes Keterampilan (khusus untuk jurusan/program studi tertentu)"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pelaksanaan Seleksi : Mei - Juli 2017"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:textSize="14sp" />
 
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="www.sbmptn.or.id"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
     </LinearLayout>

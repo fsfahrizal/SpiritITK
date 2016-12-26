@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#2C3E50"
+    android:background="#ffffff"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.fahrizal.spirititk.SnmptnItk"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN)"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="SNMPTN atau biasa dikenal dengan 'Jalur Undangan' adalah program penerimaan mahasiswa baru pada Perguruan Tinggi Negeri (PTN) yang menggunakan sistem penelusuran prestasi akademik pada calon mahasiswa baru. Adapun proses seleksinya adalah :"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <View
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Pastikan sekolah calon pendaftar sudah mengisi data siswa di PDDS (Pangkalan Data Siswa dan Sekolah)."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Seleksi prestasi akademik menggunakan nilai rapor semester 1 s/d 5 (untuk sekolah dengan masa studi 3 tahun) dan nilai rapor semester 1 s/d 7 (untuk sekolah dengan masa studi 4 tahun)."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -67,14 +67,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="- Pendaftar dapat memilih maksimum 2 PTN yang salah satunya berada dalam provinsi sesuai dengan KTP pendaftar."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pelaksanaan Seleksi : Januari - April 2017"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:textSize="14sp" />
 
@@ -82,7 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="www.snmptn.ac.id"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
     </LinearLayout>

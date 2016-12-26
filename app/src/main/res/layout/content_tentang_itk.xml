@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2C3E50"
+    android:background="#ffffff"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.fahrizal.spirititk.TentangITK"
     tools:showIn="@layout/activity_tentang_itk">
@@ -35,7 +35,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:text="Institut Teknologi Kalimantan (ITK) adalah salah satu perguruan tinggi di Indonesia yang sejak tahun 2012 dan diresmikan menjadi perguruan tinggi negeri (PTN) pada 6 Oktober 2014 oleh Presiden Republik Indonesia. ITK didirikan atas dasar pemikiran yang matang guna memeratakan pendidikan di Indonesia, khususnya dibidang sains dan teknologi. Dengan menempati lahan seluas 56,9 Ha (dan sesuai masterplan akan dilakukan pengembangan hingga 300 Ha), ITK diproyeksikan menjadi perguruan tinggi terbesar se-Asia Tenggara dimasa mendatang."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="10dp"
             android:text="Saat ini ITK memiliki jumlah mahasiswa sebanyak 1358 orang yang tersebar di 10 program studi dan tahun 2017, ITK membuka 3 program studi baru yaitu Teknik Industri, Teknik Lingkungan dan Teknik Informatika."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -55,7 +55,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="10dp"
             android:text="Tenaga pengajar di lingkungan ITK berasal dari perguruan tinggi terbaik di Indonesia maupun di luar negeri. Dengan tenaga pengajar yang berkompeten dibidangnya, diharapkan lulusan ITK akan mampu bersaing dilingkup Nasional maupun Internasional."
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
     </LinearLayout>

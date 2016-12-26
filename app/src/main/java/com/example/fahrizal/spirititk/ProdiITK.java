@@ -49,16 +49,16 @@ public class ProdiITK extends AppCompatActivity
 
         ArrayList<Card> cards = new ArrayList<>();
 
-        cards.add(new Card("Fisika", R.drawable.fisika));
-        cards.add(new Card("Matematika", R.drawable.matematika));
-        cards.add(new Card("Teknik Mesin", R.drawable.mesin));
-        cards.add(new Card("Teknik Elektro", R.drawable.elektro));
-        cards.add(new Card("Teknik Kimia", R.drawable.tekim));
-        cards.add(new Card("Teknik Material dan Metalurgi", R.drawable.mamet));
-        cards.add(new Card("Teknik Sipil", R.drawable.sipil));
-        cards.add(new Card("Perencanaan Wilayah dan Kota", R.drawable.pwk));
+        cards.add(new Card("Fisika", R.drawable.kapal));
+        cards.add(new Card("Matematika", R.drawable.kapal));
+        cards.add(new Card("Teknik Mesin", R.drawable.kapal));
+        cards.add(new Card("Teknik Elektro", R.drawable.kapal));
+        cards.add(new Card("Teknik Kimia", R.drawable.kapal));
+        cards.add(new Card("Teknik Material dan Metalurgi", R.drawable.kapal));
+        cards.add(new Card("Teknik Sipil", R.drawable.kapal));
+        cards.add(new Card("Perencanaan Wilayah dan Kota", R.drawable.kapal));
         cards.add(new Card("Teknik Perkapalan", R.drawable.kapal));
-        cards.add(new Card("Sistem Informasi", R.drawable.si));
+        cards.add(new Card("Sistem Informasi", R.drawable.kapal));
 
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.list_item);
@@ -71,12 +71,14 @@ public class ProdiITK extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
+        Intent pindah = new Intent(ProdiITK.this,MainActivity.class);
+        startActivity(pindah);
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        if (drawer.isDrawerOpen(GravityCompat.START)) {
+//            drawer.closeDrawer(GravityCompat.START);
+//        } else {
+//            super.onBackPressed();
+//        }
     }
 
     @Override
@@ -107,12 +109,8 @@ public class ProdiITK extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_news) {
-            Intent i = new Intent(ProdiITK.this, MainActivity.class);
-            startActivity(i);
-        } else if (id == R.id.nav_prodi) {
-            Intent i = new Intent(ProdiITK.this, ProdiITK.class);
-            startActivity(i);
+         if (id == R.id.nav_prodi) {
+
         } else if (id == R.id.nav_fasilitas) {
             Intent i = new Intent(ProdiITK.this, FasilitasITK.class);
             startActivity(i);
@@ -120,12 +118,8 @@ public class ProdiITK extends AppCompatActivity
             Intent i = new Intent(ProdiITK.this, TentangITK.class);
             startActivity(i);
         } else if (id == R.id.nav_jalur){
-            Intent i = new Intent(ProdiITK.this, JalurMasuk.class);
+            Intent i = new Intent(ProdiITK.this, JalurPendaftaran.class);
             startActivity(i);
-        } else if (id == R.id.nav_contact) {
-
-        } else if (id == R.id.nav_exit) {
-            moveTaskToBack(true);
         } else if (id == R.id.nav_team) {
             Intent i = new Intent(ProdiITK.this, TeamDev.class);
             startActivity(i);

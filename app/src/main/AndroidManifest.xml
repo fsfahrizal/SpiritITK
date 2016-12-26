@@ -107,6 +107,10 @@
         <activity
             android:name=".UmItk"
             android:label="@string/title_activity_um_itk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JalurPendaftaran"
+            android:label="@string/title_activity_jalur_pendaftaran"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -100,6 +100,7 @@
     <string name="title_activity_snmptn_itk">SNMPTN</string>
     <string name="title_activity_sbmptn_itk">SBMPTN</string>
     <string name="title_activity_um_itk">UMITK</string>
+    <string name="title_activity_jalur_pendaftaran">JalurPendaftaran</string>
 
 
 </resources>

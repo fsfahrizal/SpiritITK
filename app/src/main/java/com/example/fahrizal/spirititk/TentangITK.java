@@ -45,12 +45,14 @@ public class TentangITK extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
+        Intent pindah = new Intent(TentangITK.this,MainActivity.class);
+        startActivity(pindah);
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        if (drawer.isDrawerOpen(GravityCompat.START)) {
+//            drawer.closeDrawer(GravityCompat.START);
+//        } else {
+//            super.onBackPressed();
+//        }
     }
 
     @Override
@@ -81,21 +83,17 @@ public class TentangITK extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_news) {
-            // Handle the camera action
-        } else if (id == R.id.nav_prodi) {
+        if (id == R.id.nav_prodi) {
             Intent i = new Intent(TentangITK.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
-
+            Intent i = new Intent(TentangITK.this, FasilitasITK.class);
+            startActivity(i);
         } else if (id == R.id.nav_tentang) {
 
         } else if (id == R.id.nav_jalur){
-
-        } else if (id == R.id.nav_contact) {
-
-        } else if (id == R.id.nav_exit) {
-            moveTaskToBack(true);
+            Intent i = new Intent(TentangITK.this, JalurPendaftaran.class);
+            startActivity(i);
         } else if (id == R.id.nav_team) {
             Intent i = new Intent(TentangITK.this, TeamDev.class);
             startActivity(i);

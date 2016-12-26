@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            super.moveTaskToBack(true);
         }
     }
 
@@ -100,9 +100,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_news) {
-            // Handle the camera action
-        } else if (id == R.id.nav_prodi) {
+        if (id == R.id.nav_prodi) {
             Intent i = new Intent(MainActivity.this, ProdiITK.class);
             startActivity(i);
         } else if (id == R.id.nav_fasilitas) {
@@ -112,12 +110,8 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this, TentangITK.class);
             startActivity(i);
         } else if (id == R.id.nav_jalur){
-            Intent i = new Intent(MainActivity.this, JalurMasuk.class);
+            Intent i = new Intent(MainActivity.this, JalurPendaftaran.class);
             startActivity(i);
-        }else if (id == R.id.nav_contact) {
-
-        } else if (id == R.id.nav_exit) {
-            moveTaskToBack(true);
         } else if (id == R.id.nav_team) {
             Intent i = new Intent(MainActivity.this, TeamDev.class);
             startActivity(i);
