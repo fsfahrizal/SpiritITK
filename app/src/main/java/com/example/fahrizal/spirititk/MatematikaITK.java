@@ -24,7 +24,7 @@ public class MatematikaITK extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://drive.google.com/file/d/0B6bxIPdE-raEOTlkOTBzdlFGa28/view"));
+                intent.setData(Uri.parse("https://drive.google.com/file/d/0B2H6gjQNTxsvS0FkcXFXV0xTZk0/view"));
                 startActivity(intent);
             }
         });

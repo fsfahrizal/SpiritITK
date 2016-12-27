@@ -238,7 +238,7 @@
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:textColor="#000000"
             android:layout_marginBottom="10dp"
-            android:text="Program Studi Sistem Informasi sebagai pusat pengembangan sumber daya manusia yang berperan aktif dalam pembangunan nasional melalui pemanfaatan teknologi informasi pada tahun 2025"/>
+            android:text="Program Studi Matematika menjadi pusat pengembangan keilmuan Matematika di Indonesia Timur dengan aktif berkarya dan berkontribusi dalam pembangunan nasional melalui pemberdayaan potensi daerah Kalimantan pada tahun 2025"/>
 
         <View
             android:layout_width="fill_parent"
@@ -264,7 +264,7 @@
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:textColor="#000000"
-            android:text="- Menyelenggarakan pendidikan tinggi dalam bidang Sistem Informasi untuk menghasilkan lulusan yang diakui di tingkat nasional dan internasional"/>
+            android:text="- Melaksanakan pendidikan Matematika yang berkualitas untuk menghasilkan lulusan sesuai kebutuhan masyarakat, nasional, dan internasional, dan siap melanjutkan pendidikan yang lebih tinggi"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -273,7 +273,16 @@
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:textColor="#000000"
-            android:text="- Menyelenggarakan penelitian yang inovatif dan kreatif untuk pengembangan Sistem Informasi"/>
+            android:text="- Membudayakan kegiatan penelitian matematika di tingkat nasional maupun internasional untuk menunjang proses pembelajaran matematika"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textColor="#000000"
+            android:text="- Menjalin kerjasama dengan perguruan tinggi lain, industri, masyarakat, dan pemerintah"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -283,7 +292,7 @@
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:textColor="#000000"
             android:layout_marginBottom="10dp"
-            android:text="- Membangun kerja sama dan menyelenggarakan kegiatan pelayanan kepada masyarakat yang berhubungan dengan Sistem Informasi"/>
+            android:text="- Menerapkan ilmu matematika dan terapannya sebagai solusi dalam rangka pengabdian kepada masyarakat"/>
 
         <View
             android:layout_width="fill_parent"
@@ -310,7 +319,7 @@
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:textColor="#000000"
             android:layout_marginBottom="10dp"
-            android:text="Kurikulum Sistem Informasi telah dirancang untuk membentuk profil lulusan yang sesuai dengan kebutuhan bisnis dan sesuai dengan standar kurikulum internasional Information System Curriculum Guideline yang diterbitkan oleh Association of Computing Machinery (ACM) dan Association of Information System (AIS)."/>
+            android:text="Kurikulum Matematika telah dirancang untuk membentuk profil lulusan yang sesuai dengan kebutuhan dan sesuai dengan standar."/>
 
         <Button
             android:layout_width="150dp"
@@ -349,7 +358,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/lovinta"
+                android:src="@drawable/sigit"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -361,7 +370,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Lovinta H. Atrinawati, S.T., M.T., CISA"/>
+                    android:text="Sigit Pancahayani, S.Si., M.Si."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -374,20 +383,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Information System Audit"/>
+                    android:text="Teori Graf"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Knowledge Management"
+                    android:text="Matematika Diskrit"
                     android:id="@+id/dua"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Enterprise Resource Planning"/>
+                    android:text="Aljabar"/>
 
             </LinearLayout>
 
@@ -402,7 +411,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/ariyadi"
+                android:src="@drawable/irma"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -415,7 +424,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Ariyadi, S.ST., M.T."/>
+                    android:text="Irma Fitria, S.Si., M.Si."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -428,19 +437,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Artificial Intelligence"/>
+                    android:text="Modelling"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Game Technology" />
+                    android:text="Analysis of Dynamic System" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Immersive Environment"/>
+                    android:text="Optimization"/>
 
             </LinearLayout>
 
@@ -455,7 +464,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/bima"
+                android:src="@drawable/mega"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -468,7 +477,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Bima Prihasto, S.Si., M.Si."/>
+                    android:text="Mega Silfiani, S.Si., M.Si., M.Sc."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -481,19 +490,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Artificial Neural"/>
+                    android:text="Time Series Analysis"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Computer Vision" />
+                    android:text="Econometrics Model" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Machine Learning"/>
+                    android:text="Artificial Neural Network Model"/>
 
             </LinearLayout>
 
@@ -508,7 +517,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/geges"
+                android:src="@drawable/mail"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -521,7 +530,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Septian Geges, S.Kom., M.Kom."/>
+                    android:text="Moh. Januar Ismail Burhan, S.Si., M.Si."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -534,19 +543,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Vomputer Network"/>
+                    android:text="Mathematical Analysis"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Network Protocol" />
+                    android:text="Geometry" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Distributed System"/>
+                    android:text="Algebra"/>
 
             </LinearLayout>
 
@@ -561,7 +570,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/soleh"
+                android:src="@drawable/azka"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -574,7 +583,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Soleh Ardiansyah, S.Kom., M.Sc."/>
+                    android:text="Muhammad Azka, S.Si., M.Sc."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -587,19 +596,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Artificial Intelligence"/>
+                    android:text="Actuarial Science"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Neural Network" />
+                    android:text="Finance" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Forecasting Research"/>
+                    android:text="Statistic"/>
 
             </LinearLayout>
 
@@ -614,7 +623,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/ayu"
+                android:src="@drawable/dina"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -627,7 +636,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Sri Rahayu Natasia, S.Kom., M.Si., M.Sc."/>
+                    android:text="Primadina Hasanah, S.Si., M.Sc."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -640,19 +649,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Machine Learning"/>
+                    android:text="Statistics"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Data Mining" />
+                    android:text="Actuarial Mathematic" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Molecular Dynamics Simulation"/>
+                    android:text="Financial Mathematic"/>
 
             </LinearLayout>
 
@@ -667,7 +676,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/vinda"
+                android:src="@drawable/retno"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -680,7 +689,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Vinda Daningrum, S.Kom., M.Kom., M.IM."/>
+                    android:text="Retno Wahyu Dewanti, S.Si., M.Si."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -693,13 +702,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="IT Governance"/>
+                    android:text="Modeling"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="E-Goverment" />
+                    android:text="Control" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Epidemiology"/>
 
             </LinearLayout>
 
@@ -714,7 +729,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/yuyun"
+                android:src="@drawable/rosna"
                 android:paddingLeft="@dimen/activity_horizontal_margin" />
 
             <LinearLayout
@@ -727,7 +742,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="Yuyun Tri Wiranti, S.Kom., M.MT"/>
+                    android:text="Rosna Malika, S.Si., M.Si."/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -740,7 +755,72 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Computational Intelligance"/>
+                    android:text="Spatial"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Extreme Value"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Environment and Health Statistics"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/people"
+                android:paddingLeft="@dimen/activity_horizontal_margin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Winarni, S.Si., M.Si."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Expertise :"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Aljabar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Graph"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Wavelate Transform"/>
 
             </LinearLayout>
 
